@@ -18,6 +18,3 @@ jobs:
 
     - name: Build
       run: GO111MODULE=on go build -v
-
-    - name: Test
-      run: GO111MODULE=on go test -v
